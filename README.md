@@ -52,8 +52,6 @@ Money Mate is a user-friendly personal finance manager designed for young indivi
   <p>Money Mate began as a school project developed by our team of four students. We pitched the idea to investors, planned meticulously, and executed the development process. We conducted market research to understand the financial challenges faced by young individuals, designed a user-friendly interface, and incorporated a charming canine mascot. Through rigorous coding sessions and frequent meetings, we ensured each feature was functional and engaging. The project concluded with our presentation showcasing Money Mate's capabilities, receiving valuable feedback from industry experts, and marking a significant milestone in our educational journey.</p>
 </details>
 
-<br/>
-
 To learn more about this project visit the [README](/moneymate/README.md) page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,8 +122,6 @@ Die einzelnen Transitionen werden durch „11“ voneinander getrennt (jedes Ci 
 <br/>
 C111C211C311 . . .
 </details>
-
-<br/>
 
 I programmed it using the "Object oriented Pattern" with **Python**.
 
