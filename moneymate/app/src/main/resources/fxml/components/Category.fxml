@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="categoryBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.savingprivatenitti.controllers.primitive.CategoryController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="30.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="categoryLabel" alignment="CENTER" text="Category" textAlignment="CENTER" styleClass="category-label"/>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

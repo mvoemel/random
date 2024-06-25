@@ -1,0 +1,15 @@
+@startuml
+
+class TransactionCellController {
+    +in_icon: Label
+    +out_icon: Label
+    +trans_date_lbl: Label
+    +sender_label: Label
+    +receiver_label: Label
+    +amount_label: Label
+    +delete_button: Button
+
+    +initialize(location: URL, resource: ResourceBundle): void
+}
+
+@enduml

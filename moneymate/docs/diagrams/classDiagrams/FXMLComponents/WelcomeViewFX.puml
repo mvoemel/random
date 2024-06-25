@@ -1,0 +1,3 @@
+@startuml
+exception WelcomeViewFX <<FXML Component>>
+@enduml

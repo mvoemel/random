@@ -1,0 +1,15 @@
+@startuml
+
+class SidebarController {
+    +categories_button: Button
+    +dashboard_button: Button
+    +transactions_button: Button
+
+    +initialize(): void
+    -onCategoriesClicked(): void
+    -onDashboardClicked(): void
+    -onTransactionsClicked(): void
+}
+
+
+@enduml

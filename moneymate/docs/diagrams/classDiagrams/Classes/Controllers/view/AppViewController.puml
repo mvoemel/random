@@ -1,0 +1,14 @@
+@startuml
+class AppViewController {
+  + AppViewController(Stage, ControllerFactory):
+  - menubarActiveIndicator: Pane
+  - transactionsMenuItem: Button
+  - dashBoardMenuItem: Button
+  - categoriesMenuItem: Button
+  + switchToTransaction(): void
+  + initialize(URL, ResourceBundle): void
+  + applyEffectOnMenubarActiveIndicator(): void
+  + switchToCategory(): void
+  + switchToDashboard(): void
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+class WeeklySavingsOverviewWidgetController {
+  - weeklySavingsStackedBarChart: StackedBarChart<String, Number>
+  - weekdayAxis: CategoryAxis
+  - startOfWeekDateText: Text
+  - widgetGroup: Group
+  - amountAxis: NumberAxis
+  + WeeklySavingsOverviewWidgetController(Model):
+  + initialize(URL, ResourceBundle): void
+  - applyCssClassesToSeries(Series<String, Number>, String): void
+  - createSeries(String, Map<LocalDate, Map<TransactionType, Double>>, LocalDate, TransactionType): Series<String, Number>
+  - clearWeeklySavingsOverview(): void
+  - updateWeeklySavingsOverview(): void
+  - groupTransactionsByDateAndType(LocalDate, LocalDate, DateTimeFormatter): Map<LocalDate, Map<TransactionType, Double>>
+}
+@enduml

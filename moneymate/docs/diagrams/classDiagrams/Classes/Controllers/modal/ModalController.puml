@@ -1,0 +1,9 @@
+@startuml
+class ModalController {
+  - okButton: Button
+  - modalText: Text
+  + ModalController():
+  + setMessage(String): void
+  + onOkButtonClicked(): void
+}
+@enduml

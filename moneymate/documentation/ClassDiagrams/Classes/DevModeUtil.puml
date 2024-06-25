@@ -1,0 +1,11 @@
+@startuml
+
+class DevModeUtil {
+
+    +{static} DEV_MODE: boolean {readonly}
+    +{static} isDevMode(): boolean
+}
+
+
+
+@enduml

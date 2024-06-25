@@ -1,0 +1,10 @@
+@startuml
+
+class Model {
+    -{static} instance: Model
+    +viewFactory: ViewFactory {readonly}
+    +database: Database {readonly}
+}
+
+
+@enduml

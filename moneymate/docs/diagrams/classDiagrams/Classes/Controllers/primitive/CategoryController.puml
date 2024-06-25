@@ -1,0 +1,9 @@
+@startuml
+class CategoryController {
+  - categoryLabel: Label
+  - categoryBox: AnchorPane
+  + CategoryController():
+  + applyCategoryStyles(Category): void
+  + addCategoryDataToCategory(Category): void
+}
+@enduml

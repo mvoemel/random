@@ -1,0 +1,14 @@
+@startuml
+entity Category << record >> {
+  + Category(int, String, Color):
+    + id: int {readonly}
+    + color: Color {readonly}
+    + label: String {readonly}
+    + id(): int
+    + compareTo(Category): int
+    + label(): String
+    + equals(Object): boolean
+    + hashCode(): int
+    + color(): Color
+}
+@enduml

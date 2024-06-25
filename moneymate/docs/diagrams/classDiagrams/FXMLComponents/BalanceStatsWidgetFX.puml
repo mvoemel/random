@@ -1,0 +1,4 @@
+@startuml
+exception BalanceStatsWidgetFX <<FXML Component>>
+
+@enduml

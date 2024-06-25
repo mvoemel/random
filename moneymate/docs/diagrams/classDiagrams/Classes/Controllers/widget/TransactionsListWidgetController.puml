@@ -1,0 +1,10 @@
+@startuml
+class TransactionsListWidgetController {
+  - transactionsListScrollPane: ScrollPane
+  - widgetGroup: Group
+  - transactionsListContainer: VBox
+  + TransactionsListWidgetController(Model):
+  + initialize(URL, ResourceBundle): void
+  - updateTransactionsList(): void
+}
+@enduml

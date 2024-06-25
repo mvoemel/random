@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Vintage";
+    src: url("../fonts/Vintage/Vintage.ttf") format("truetype");
+}
+
+.root {
+    -fx-primary-dark: #000000;
+    -fx-primary-color: #101010;
+    -fx-primary-light: #181818;
+    -fx-secondary-dark: #CD20FF;
+    -fx-secondary-main: #DE6CFF;
+    -fx-secondary-light: #CAA9D3;
+    -fx-neutral: #CBCBCB;
+    -fx-gray: #919191;
+    -fx-dark: #292929;
+    -fx-error: #FF6961;
+    -fx-success: #77DD77;
+    -fx-info: #84D9FF;
+}
+
+.view-pane {
+    -fx-background-color: -fx-primary-color;
+}
+
+
+.h1 {
+    -fx-font-size: 50px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-fill: -fx-neutral;
+    -fx-text-fill: -fx-neutral;
+}
+
+.h2 {
+    -fx-font-size: 20px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-fill: -fx-neutral;
+    -fx-text-fill: -fx-neutral;
+    -fx-opacity: 0.8;
+}
+
+.h3 {
+    -fx-font-size: 16px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-fill: -fx-neutral;
+    -fx-text-fill: -fx-neutral;
+    -fx-opacity: 0.8;
+}
+
+.h4 {
+    -fx-font-size: 13px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-fill: -fx-neutral;
+    -fx-text-fill: -fx-neutral;
+    -fx-opacity: 0.8;
+}
+
+.banner-text {
+    -fx-font-size: 26px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-fill: -fx-neutral;
+    -fx-font-weight: bold;
+}
+
+.balance-income-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-fill: -fx-success;
+    -fx-font-weight: bold;
+}
+
+.balance-expense-text {
+    -fx-font-size: 32px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-fill: -fx-error;
+    -fx-font-weight: bold;
+}
+
+.menu-item {
+    -fx-font-size: 21px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-text-fill: -fx-secondary-light;
+    -fx-font-weight: bold;
+    -fx-background-color: -fx-primary-light;
+}
+
+.menubar {
+    -fx-background-color: -fx-primary-light;
+    -fx-background-radius: 10;
+}
+
+.menubar-active {
+    -fx-background-color: -fx-secondary-main;
+    -fx-background-radius: 10;
+}
+
+.form-element-label {
+    -fx-font-size: 15px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-neutral;
+}
+
+.welcome-headline {
+    -fx-font-size: 50px;
+    -fx-font-family: "Vintage";
+    -fx-fill: -fx-neutral;
+}
+
+.link {
+    -fx-font-size: 13px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-text-fill: -fx-neutral;
+}
+
+.secondary-button {
+    -fx-background-color: -fx-secondary-dark;
+    -fx-font-size: 14px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #b71be7;
+}
+
+.neutral-button {
+    -fx-background-color: -fx-dark;
+    -fx-font-size: 14px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.neutral-button:hover {
+    -fx-background-color: #252525;
+    -fx-font-size: 14px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.secondary-outline-button {
+    -fx-background-color: #251825;
+    -fx-border-color: -fx-secondary-main;
+    -fx-border-radius: 4;
+    -fx-text-fill: -fx-secondary-main;
+    -fx-font-weight: bold;
+}
+
+.secondary-outline-button:hover {
+    -fx-background-color: #59255A;
+}
+
+.delete-button {
+    -fx-background-color: -fx-primary-light;
+    -fx-border-radius: 4;
+    -fx-border-color: -fx-error;
+    -fx-text-fill: -fx-error;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.delete-button:hover {
+    -fx-background-color: -fx-error;
+    -fx-text-fill: white;
+}
+
+.widget {
+    -fx-background-color: -fx-primary-light;
+    -fx-background-radius: 10;
+}
+
+.widget-label {
+    -fx-font-size: 21px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-secondary-light;
+}
+
+.date-picker {
+    -fx-control-inner-background: -fx-primary-light;
+    -fx-border-color: -fx-dark;
+    -fx-base: -fx-secondary-dark;
+    -fx-accent: -fx-secondary-dark;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-background-insets: 1.0;
+    -fx-background-color: -fx-secondary-dark;
+}
+
+.date-picker .day-cell:selected {
+    -fx-background-color: -fx-secondary-main;
+    -fx-text-fill: -fx-primary-light;
+}
+
+.date-picker .day-cell:hover {
+    -fx-background-color: -fx-secondary-light;
+    -fx-text-fill: -fx-primary-light;
+}
+
+.date-picker .month-year-pane {
+    -fx-background-color: -fx-primary-light;
+}
+
+.date-picker .spinner .text {
+    -fx-fill: -fx-neutral;
+}
+
+.date-picker .arrow-button {
+    -fx-mark-color: -fx-neutral;
+}
+
+.date-picker .day-name-cell {
+    -fx-background-color: -fx-primary-light;
+    -fx-text-fill: -fx-secondary-light;
+}
+
+.date-picker .spinner {
+    -fx-background-color: -fx-primary-light;
+}
+
+.date-picker .text-field {
+    -fx-prompt-text-fill: -fx-gray;
+}
+
+.date-picker:focused {
+    -fx-focus-color: -fx-secondary-main;
+}
+
+.color-picker {
+    -fx-background-color: -fx-dark;
+    -fx-text-fill: #f3f3f3;
+    -fx-accent: -fx-secondary-main;
+}
+
+.color-picker .label {
+    -fx-text-fill: -fx-neutral;
+}
+
+.color-picker .button {
+    -fx-background-color: -fx-primary-light;
+    -fx-text-fill: -fx-neutral;
+}
+
+.color-picker .button:hover {
+    -fx-background-color: -fx-secondary-main;
+}
+
+
+   .choice-box .context-menu { -fx-background-color: -fx-dark; }
+   .choice-box .menu-item:focused { -fx-background-color: -fx-secondary-main; }
+   .choice-box .menu-item > .label {
+       -fx-text-fill: -fx-neutral;
+       -fx-font: 12px "Source Sans Pro Bold";
+   }
+   .choice-box .menu-item:focused > .label { -fx-text-fill: black; }
+   .choice-box {
+       -fx-background-color: -fx-dark;
+       -fx-mark-color: -fx-secondary-main;
+   }
+   .choice-box > .label {
+       -fx-text-fill: -fx-neutral;
+       -fx-font: 12px "Source Sans Pro Bold";
+   }
+
+.chart-title {
+    -fx-text-fill: -fx-neutral;
+    -fx-font: 15px "Source Sans Pro Bold";
+}
+
+.chart-pie-label-line {
+    -fx-stroke: -fx-neutral;
+}
+
+.chart-pie-label {
+    -fx-fill: -fx-neutral;
+    -fx-font-size: 12px;
+    -fx-font: 12px "Source Sans Pro Bold";
+}
+/*
+* Text field
+ */
+.text-field {
+    -fx-font-family: "Source Sans Pro";
+    -fx-border-color: -fx-gray; /* Border color when not focused */
+    -fx-background-color: -fx-dark;
+    -fx-border-radius: 4;
+    -fx-text-fill: -fx-neutral;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: -fx-secondary-main; /* Border color when focused */
+}
+
+.category-label {
+    -fx-font-size: 14px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+}
+
+.scroll-pane {
+    -fx-background-color: -fx-primary-light;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: -fx-primary-light;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: -fx-primary-light;
+    -fx-border-radius: 10;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: -fx-dark;
+    -fx-border-radius: 10;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: -fx-primary-light;
+    -fx-border-radius: 10;
+}
+
+.chart {
+    -fx-background-color: -fx-primary-light;
+}
+
+.chart-plot-background {
+    -fx-background-color: -fx-primary-light;
+}
+
+.chart-horizontal-grid-lines, .chart-vertical-grid-lines {
+    -fx-stroke: -fx-neutral;
+}
+
+.axis-label {
+    -fx-text-fill: -fx-neutral;
+    -fx-fill: -fx-neutral;
+    -fx-font: 15px "Source Sans Pro Bold";
+}
+
+.axis-tick-label {
+    -fx-text-fill: -fx-secondary-dark;
+    -fx-fill: -fx-neutral;
+    -fx-font-size: 30px;
+}
+
+.chart-bar {
+    -fx-bar-fill: -fx-error;
+}
+
+.chart-bar.income {
+    -fx-bar-fill: -fx-success;
+}
+
+.modal {
+    -fx-background-color: -fx-primary-light;
+}
+
+.modal-heading {
+    -fx-font-size: 20px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-fill: -fx-error;
+    -fx-font-weight: bold;
+}
+
+.modal-body {
+    -fx-font-size: 13px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-fill: -fx-neutral;
+    -fx-font-weight: bold;
+}
+
+.transaction-date {
+    -fx-font-size: 14px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-fill: -fx-gray;
+    -fx-font-weight: bold;
+}
+
+.transaction-category {
+    -fx-font-size: 18px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+}
+
+
+.transaction-amount {
+    -fx-font-size: 20px;
+    -fx-font-family: "Source Sans Pro";
+    -fx-font-weight: bold;
+}
+
+.transaction-box {
+    -fx-background-color: -fx-dark;
+    -fx-background-radius: 8;
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+}
+
+

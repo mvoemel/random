@@ -1,0 +1,9 @@
+@startuml
+class WelcomeViewController {
+  - signUpButton: Button
+  - loginButton: Button
+  + WelcomeViewController(Stage, ControllerFactory):
+  + onLoginButtonClicked(): void
+  + onSignUpButtonClicked(): void
+}
+@enduml

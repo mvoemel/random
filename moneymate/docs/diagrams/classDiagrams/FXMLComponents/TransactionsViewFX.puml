@@ -1,0 +1,3 @@
+@startuml
+exception TransactionsViewFX <<FXML Component>>
+@enduml

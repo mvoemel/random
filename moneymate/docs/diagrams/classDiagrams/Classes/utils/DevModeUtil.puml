@@ -1,0 +1,7 @@
+@startuml
+class DevModeUtil {
+  + DevModeUtil():
+  - DEV_MODE: boolean
+  + isDevMode(): boolean
+}
+@enduml

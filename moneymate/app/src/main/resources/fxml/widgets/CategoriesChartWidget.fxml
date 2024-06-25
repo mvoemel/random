@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.Group?>
+<Group fx:id="widgetGroup" layoutX="744.0" layoutY="335.0" xmlns="http://javafx.com/javafx/21"
+       xmlns:fx="http://javafx.com/fxml/1"
+       fx:controller="org.savingprivatenitti.controllers.widget.CategoriesChartWidgetController">
+    <AnchorPane styleClass="widget" prefHeight="348.0" prefWidth="440.0">
+        <children>
+            <PieChart fx:id="categoriesPieChart" layoutX="20.0" layoutY="50.0" prefHeight="250.0" prefWidth="400.0"
+                      title="This weeks spending's by categories" titleSide="BOTTOM"/>
+            <Label styleClass="widget-label" layoutX="13.0" layoutY="13.0" text="Categories Expenses"/>
+        </children>
+    </AnchorPane>
+</Group>

@@ -1,0 +1,39 @@
+@startuml
+
+
+WelcomeController ..> WelcomeFX
+SidebarController ..> SidebarFX
+MainController ..> MainFX
+DashboardController ..> DashboardFX
+TransactionController ..> TransactionFX
+CategoryController ..> CategoryFX
+TransactionCellController ..> TransactionCellFX
+
+MainFX ..> SidebarFX
+MainFX ..> DashboardFX
+
+App ..> DevModeUtil
+App ..> Model
+
+Model --> ViewFactory
+Model --> Database
+
+Database ..> Transaction
+Database ..> Category
+
+Transaction --> Category
+
+TransactionController ..> Transaction
+TransactionCellController ..> Transaction
+DashboardController ..> Transaction
+
+CategoryController ..> Category
+
+ViewFactory ..> MainController
+
+
+
+
+
+
+@enduml

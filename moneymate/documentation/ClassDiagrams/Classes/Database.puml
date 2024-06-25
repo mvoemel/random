@@ -1,0 +1,19 @@
+@startuml
+
+class Database {
+
+    -connection: Connection
+    -{static} DATABASE_URL: String {readonly}
+
+----
+    -initDatabase(): void
+..Getter..
+    +getTransactions(): List<Transaction>
+    +getCategories(): List<Category>
+....
+    +addNewTransaction(Transaction transaction): void
+    +addNewCategory(Category category): void
+}
+
+
+@enduml

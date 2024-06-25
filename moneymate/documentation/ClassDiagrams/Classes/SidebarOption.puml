@@ -1,0 +1,11 @@
+@startuml
+
+enum SidebarOption <<enumeration>> {
+    DASHBOARD
+    TRANSACTION
+    CATEGORY
+    +values(): SidebarOption[]
+    +valueOf(String name): SidebarOption
+}
+
+@enduml

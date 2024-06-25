@@ -1,0 +1,13 @@
+@startuml
+
+package controllers #lightgreen {
+    !include ../../Classes/Controllers/CategoryController.puml
+    !include ../../Classes/Controllers/DashboardController.puml
+    !include ../../Classes/Controllers/MainController.puml
+    !include ../../Classes/Controllers/SidebarController.puml
+    !include ../../Classes/Controllers/TransactionController.puml
+    !include ../../Classes/Controllers/WelcomeController.puml
+    !include ../../Classes/Controllers/TransactionCellController.puml
+}
+
+@enduml

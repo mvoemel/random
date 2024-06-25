@@ -1,0 +1,10 @@
+@startuml
+class CategoriesListWidgetController {
+  - widgetGroup: Group
+  - categoriesListContainer: VBox
+  - categoriesListScrollPane: ScrollPane
+  + CategoriesListWidgetController(Model):
+  + initialize(URL, ResourceBundle): void
+  - updateCategoriesList(): void
+}
+@enduml

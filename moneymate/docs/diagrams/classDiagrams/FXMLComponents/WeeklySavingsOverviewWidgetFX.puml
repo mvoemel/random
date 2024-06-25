@@ -1,0 +1,3 @@
+@startuml
+exception WeeklySavingsOverviewWidgetFX <<FXML Component>>
+@enduml

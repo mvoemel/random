@@ -1,0 +1,9 @@
+@startuml
+enum TransactionType << enumeration >> {
+  + TransactionType():
+  + INCOME:
+  + EXPENSE:
+  + values(): TransactionType[]
+  + valueOf(String): TransactionType
+}
+@enduml

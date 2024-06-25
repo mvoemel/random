@@ -1,0 +1,9 @@
+@startuml
+entity User << record >> {
+  + User(String, String):
+  - password: String
+  - username: String
+  + username(): String
+  + password(): String
+}
+@enduml

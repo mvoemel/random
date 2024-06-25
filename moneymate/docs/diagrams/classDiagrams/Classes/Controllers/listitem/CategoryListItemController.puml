@@ -1,0 +1,12 @@
+@startuml
+class CategoryListItemController {
+  - onDeleteCategory: Consumer<Category>
+  - categoryListItemDelete: Button
+  - category: Category
+  - categoryListItemContainer: HBox
+  + CategoryListItemController():
+  + addCategoryDataToCategoryListItem(Category): void
+  + onCategoryDeleteButtonClicked(): void
+  + setOnDeleteCategory(Consumer<Category>): void
+}
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+class AddNewCategoryWidgetController {
+  - categoryLabel: TextField
+  - addCategoryButton: Button
+  - widgetGroup: Group
+  - categoryColorPicker: ColorPicker
+  + AddNewCategoryWidgetController(Model):
+  + initialize(URL, ResourceBundle): void
+  + onAddCategoryButtonClicked(): void
+  - showMissingCategoryLabelErrorModal(): void
+  - categoryAlreadyExists(Category): boolean
+  - showCategoryAlreadyExistsErrorModal(): void
+  - clearFormElements(): void
+}
+@enduml

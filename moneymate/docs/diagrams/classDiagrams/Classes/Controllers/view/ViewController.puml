@@ -1,0 +1,8 @@
+@startuml
+abstract class ViewController {
+  + ViewController(Stage, ControllerFactory):
+  # stage: Stage
+  # controllerFactory: ControllerFactory
+  # setScene(String): void
+}
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+class LogoutController {
+  + LogoutController(Stage, ControllerFactory):
+  - email: Text
+  - logoutButton: ImageView
+  - username: Text
+  - setOnLogout: Supplier<Boolean>
+  + setEmailText(String): void
+  + setOnLogout(Supplier<Boolean>): void
+  + onLogoutSymbolClicked(): void
+  + setUsernameText(String): void
+}
+@enduml

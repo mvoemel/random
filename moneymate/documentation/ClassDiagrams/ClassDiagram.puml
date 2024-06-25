@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+skinparam linetype ortho
+skinparam packageStyle rect
+
+
+!include Packages/controllers/controllers.puml
+!include Packages/models/models.puml
+!include Packages/utils/utils.puml
+!include Packages/views/views.puml
+!include Packages/fxml/fxml.puml
+!include Classes/App.puml
+
+
+!include Connections.puml
+@enduml

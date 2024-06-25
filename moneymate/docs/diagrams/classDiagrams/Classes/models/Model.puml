@@ -1,0 +1,24 @@
+@startuml
+class Model {
+    - transactions: ObservableList<Transaction>
+    - databaseManager: DatabaseManager
+    - categories: ObservableSet<Category>
+    + currentUser: User {readOnly}
+    + Model():
+    + getUserEmail(): String
+    + addTransaction(TransactionType, double, LocalDate, Category): void
+    + addCategory(String, Color): void
+    + removeCategory(Category): void
+    + signUp(SignUpToken): boolean
+    + getCategoryByLabel(String): Category
+    + getUsername(): String
+    + logout(): boolean
+    + getTransactions(): ObservableList<Transaction>
+    + removeTransaction(Transaction): void
+    + login(LoginToken): boolean
+    + getCategories(): ObservableSet<Category>
+    - passwordsMatch(String, String): boolean
+    - hashPassword(String): String
+    - init(int): void
+}
+@enduml

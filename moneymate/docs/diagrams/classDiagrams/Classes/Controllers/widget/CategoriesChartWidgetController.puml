@@ -1,0 +1,10 @@
+@startuml
+class CategoriesChartWidgetController {
+  - categoriesPieChart: PieChart
+  - widgetGroup: Group
+  + CategoriesChartWidgetController(Model):
+  + initialize(URL, ResourceBundle): void
+  - clearCategoriesPieChart(): void
+  - updateCategoriesPieChart(): void
+}
+@enduml

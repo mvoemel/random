@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane styleClass="view-pane" minHeight="400.0" minWidth="700.0" prefHeight="700.0" prefWidth="1200.0"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.savingprivatenitti.controllers.view.LoginViewController">
+    <children>
+        <VBox alignment="CENTER" layoutX="656.0" layoutY="240.0" minHeight="100.0" minWidth="200.0" prefHeight="240.0"
+              prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="656.0"
+              AnchorPane.rightAnchor="144.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Text styleClass="h1" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome." textAlignment="CENTER"
+                      VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets/>
+                    </VBox.margin>
+                </Text>
+                <Text styleClass="h2" strokeType="OUTSIDE" strokeWidth="0.0" text="Please login to start saving!">
+                    <VBox.margin>
+                        <Insets bottom="50.0"/>
+                    </VBox.margin>
+                </Text>
+                <VBox maxHeight="-Infinity" maxWidth="275.0" minHeight="-Infinity" minWidth="-Infinity"
+                      prefHeight="200.0" prefWidth="275.0">
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <Label styleClass="form-element-label" contentDisplay="BOTTOM" text="Username"
+                                       VBox.vgrow="NEVER">
+                                    <VBox.margin>
+                                        <Insets bottom="10.0"/>
+                                    </VBox.margin>
+                                </Label>
+                                <TextField styleClass="text-field" fx:id="username" prefHeight="50.0"
+                                           VBox.vgrow="NEVER"/>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <Label styleClass="form-element-label" text="Password" VBox.vgrow="NEVER">
+                                    <VBox.margin>
+                                        <Insets bottom="10.0"/>
+                                    </VBox.margin>
+                                </Label>
+                                <PasswordField fx:id="password" styleClass="form-element-label" prefHeight="50.0"
+                                               VBox.vgrow="NEVER">
+                                </PasswordField>
+                            </children>
+                        </VBox>
+                        <Hyperlink fx:id="signUpLink" styleClass="link" onAction="#onSignUpLinkClicked"
+                                   text="No account yet?"/>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="30.0"/>
+                    </VBox.margin>
+                </VBox>
+                <Button fx:id="loginButton" styleClass="secondary-button" minHeight="-Infinity" minWidth="-Infinity"
+                        mnemonicParsing="false" onAction="#onLoginButtonClicked" prefHeight="35.0" prefWidth="130.0"
+                        text="Log in" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets/>
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+        <VBox fx:id="vbox" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="100.0"
+              AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="714.0"
+              AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fx:id="imageView" fitHeight="700.0" fitWidth="486.0" VBox.vgrow="ALWAYS">
+                    <image>
+                        <Image url="@../../images/wallpaper.jpg"/>
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

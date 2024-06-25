@@ -1,0 +1,14 @@
+@startuml
+
+package fxml #pink {
+    !include ../../FXMLComponents/WelcomeFX.puml
+    !include ../../FXMLComponents/DashboardFX.puml
+    !include ../../FXMLComponents/MainFX.puml
+    !include ../../FXMLComponents/SidebarFX.puml
+    !include ../../FXMLComponents/TransactionFX.puml
+    !include ../../FXMLComponents/WelcomeFX.puml
+    !include ../../FXMLComponents/CategoryFX.puml
+    !include ../../FXMLCOmponents/TransactionCellFX.puml
+}
+
+@enduml

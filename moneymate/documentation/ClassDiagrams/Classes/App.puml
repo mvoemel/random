@@ -1,0 +1,10 @@
+@startuml
+
+class App {
+    +App()
+    ..Main Method..
+    +{static} main(): void
+    ..Start Method..
+    +start(Stage stage): void
+}
+@enduml

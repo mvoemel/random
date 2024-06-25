@@ -1,0 +1,5 @@
+@startuml
+
+exception SidebarFX <<FXML Component>>
+
+@enduml

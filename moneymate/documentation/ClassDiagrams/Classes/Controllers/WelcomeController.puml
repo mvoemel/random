@@ -1,0 +1,11 @@
+@startuml
+
+class WelcomeController {
+
+    +welcome_button: WelcomeButton
+
+    +initialize(): void
+    -onWelcomeButtonClicked(): void
+}
+
+@enduml

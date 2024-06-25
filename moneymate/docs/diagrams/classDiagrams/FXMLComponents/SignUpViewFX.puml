@@ -1,0 +1,3 @@
+@startuml
+exception SignUpViewFX <<FXML Component>>
+@enduml

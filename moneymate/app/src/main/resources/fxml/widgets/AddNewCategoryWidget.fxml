@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.*?>
+<Group fx:id="widgetGroup" layoutX="745.0" layoutY="21.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.savingprivatenitti.controllers.widget.AddNewCategoryWidgetController">
+    <children>
+        <BorderPane styleClass="widget" prefHeight="305.0" prefWidth="440.0">
+            <center>
+                <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="400.0" stylesheets="@../../stylesheets/globals.css" BorderPane.alignment="CENTER">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label styleClass="form-element-label" text="Name">
+                                    <HBox.margin>
+                                        <Insets right="135.0" />
+                                    </HBox.margin>
+                                </Label>
+                                <TextField fx:id="categoryLabel" styleClass="text-field" prefWidth="200.0" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label styleClass="form-element-label" text="Select color" textFill="#cbcbcb">
+                                    <HBox.margin>
+                                        <Insets right="100.0" />
+                                    </HBox.margin>
+                                </Label>
+                                <ColorPicker fx:id="categoryColorPicker" styleClass="color-picker" prefWidth="200.0" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </center>
+            <bottom>
+                <Button fx:id="addCategoryButton" styleClass="secondary-outline-button" mnemonicParsing="false" onAction="#onAddCategoryButtonClicked" prefWidth="200.0" text="Add Category" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets bottom="30.0" />
+                    </BorderPane.margin>
+                </Button>
+            </bottom>
+        </BorderPane>
+        <Label text="New Category" styleClass="widget-label">
+            <padding>
+                <Insets left="15.0" top="10.0" />
+            </padding>
+        </Label>
+    </children>
+</Group>

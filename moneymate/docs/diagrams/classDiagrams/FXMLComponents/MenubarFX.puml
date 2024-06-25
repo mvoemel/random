@@ -1,0 +1,3 @@
+@startuml
+exception MenubarFX <<FXML Component>>
+@enduml

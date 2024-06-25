@@ -1,0 +1,3 @@
+@startuml
+exception ModalFX <<FXML Component>>
+@enduml

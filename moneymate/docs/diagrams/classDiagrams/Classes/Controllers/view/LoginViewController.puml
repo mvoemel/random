@@ -1,0 +1,13 @@
+@startuml
+class LoginViewController {
+    + LoginViewController(Stage, ControllerFactory):
+    - onLogin: Function<LoginToken, Boolean>
+    - username: TextField
+    - password: TextField
+    - signUpLink: Hyperlink
+    - loginButton: Button
+    + onLoginButtonClicked(): void
+    + onSignUpLinkClicked(): void
+    + setLoginFunction(Function<LoginToken, Boolean>): void
+}
+@enduml

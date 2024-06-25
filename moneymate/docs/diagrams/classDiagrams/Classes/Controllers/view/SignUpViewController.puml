@@ -1,0 +1,12 @@
+@startuml
+class SignUpViewController {
+  - loginLink: Hyperlink
+  - password: TextField
+  - username: TextField
+  - signUpButton: Button
+  - email: TextField
+  + SignUpViewController(Stage, ControllerFactory):
+  + onSignUpButtonClicked(): void
+  + onLoginLinkClicked(): void
+}
+@enduml

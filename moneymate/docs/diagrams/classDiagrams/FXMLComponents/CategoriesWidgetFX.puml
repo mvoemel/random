@@ -1,0 +1,3 @@
+@startuml
+exception CategoriesWidgetFX <<FXML Component>>
+@enduml

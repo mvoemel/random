@@ -1,0 +1,12 @@
+@startuml
+class TransactionListItemController {
+  - onDeleteTransaction: Consumer<Transaction>
+  - transaction: Transaction
+  - transactionListItemContainer: HBox
+  - transactionListItemDelete: Button
+  + TransactionListItemController():
+  + addTransactionDataToTransactionItem(Transaction): void
+  + setOnDeleteTransaction(Consumer<Transaction>): void
+  + onTransactionDeleteButtonClicked(): void
+}
+@enduml

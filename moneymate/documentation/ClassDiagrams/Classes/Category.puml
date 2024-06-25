@@ -1,0 +1,9 @@
+@startuml
+
+class Category {
+    +id: int {readonly}
+    +title: String {readonly}
+    +color: String {readonly}
+}
+
+@enduml

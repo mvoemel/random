@@ -1,0 +1,6 @@
+@startuml
+class Modal {
+  + Modal():
+  + showMessage(String): void
+}
+@enduml

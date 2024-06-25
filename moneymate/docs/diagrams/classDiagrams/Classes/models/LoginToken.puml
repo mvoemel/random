@@ -1,0 +1,9 @@
+@startuml
+entity LoginToken << record >> {
+  + LoginToken(String, String):
+  - password: String
+  - username: String
+  + password(): String
+  + username(): String
+}
+@enduml

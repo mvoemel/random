@@ -1,0 +1,6 @@
+@startuml
+class TextFormatter {
+  + TextFormatter():
+  + shortenTextToFit(String, double, Font): String
+}
+@enduml

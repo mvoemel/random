@@ -1,0 +1,10 @@
+@startuml
+
+class TransactionController {
+
+    +transactions_listview: ListView<Transaction>
+
+    +initialize(): void
+}
+
+@enduml

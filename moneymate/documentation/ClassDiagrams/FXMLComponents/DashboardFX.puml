@@ -1,0 +1,5 @@
+@startuml
+
+exception DashboardFX <<FXML Component>>
+
+@enduml

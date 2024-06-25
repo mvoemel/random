@@ -1,0 +1,27 @@
+@startuml
+
+package fxml #pink {
+    !include ../../FXMLComponents/AddNewCategoryWidgetFX.puml
+    !include ../../FXMLComponents/AddNewEntryWidgetFX.puml
+    !include ../../FXMLComponents/BalanceStatsWidgetFX.puml
+    !include ../../FXMLComponents/CategoriesChartWidgetFX.puml
+    !include ../../FXMLComponents/CategoriesViewFX.puml
+    !include ../../FXMLComponents/CategoriesWidgetFX.puml
+    !include ../../FXMLComponents/CategoryFX.puml
+    !include ../../FXMLComponents/CategoryListItemFX.puml
+    !include ../../FXMLComponents/DashboardViewFX.puml
+    !include ../../FXMLComponents/LoginViewFX.puml
+    !include ../../FXMLComponents/MenubarFX.puml
+    !include ../../FXMLComponents/ModalFX.puml
+    !include ../../FXMLComponents/RecentTransactionsWidgetFX.puml
+    !include ../../FXMLComponents/SignUpViewFX.puml
+    !include ../../FXMLComponents/TransactionFX.puml
+    !include ../../FXMLComponents/TransactionListItemFX.puml
+    !include ../../FXMLComponents/TransactionsViewFX.puml
+    !include ../../FXMLComponents/TransactionsWidgetFX.puml
+    !include ../../FXMLComponents/TransactionWideFX.puml
+    !include ../../FXMLComponents/WeeklySavingsOverviewWidgetFX.puml
+    !include ../../FXMLComponents/WelcomeViewFX.puml
+}
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class ProfileController {
+  + ProfileController(Model):
+  - usernameText: Text
+  - emailText: Text
+  + setUsernameText(String): void
+  + setEmailText(String): void
+  + initialize(URL, ResourceBundle): void
+}
+@enduml

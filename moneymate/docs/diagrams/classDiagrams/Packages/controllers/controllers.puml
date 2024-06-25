@@ -1,0 +1,38 @@
+@startuml
+package controllers #00ff4e {
+
+    package listitem #d0ff8d {
+        !include ../../Classes/Controllers/listitem/CategoryListItemController.puml
+        !include ../../Classes/Controllers/listitem/TransactionListItemController.puml
+    }
+
+    package modal #d0ff8d {
+        !include ../../Classes/Controllers/modal/ModalController.puml
+    }
+
+    package primitive #d0ff8d {
+        !include ../../Classes/Controllers/primitive/CategoryController.puml
+        !include ../../Classes/Controllers/primitive/TransactionController.puml
+    }
+
+    package view #d0ff8d {
+        !include ../../Classes/Controllers/view/AppViewController.puml
+        !include ../../Classes/Controllers/view/LoginViewController.puml
+        !include ../../Classes/Controllers/view/SignUpViewController.puml
+        !include ../../Classes/Controllers/view/ViewController.puml
+        !include ../../Classes/Controllers/view/WelcomeViewController.puml
+    }
+
+    package widget #d0ff8d {
+        !include ../../Classes/Controllers/widget/AddNewCategoryWidgetController.puml
+        !include ../../Classes/Controllers/widget/AddNewEntryWidgetController.puml
+        !include ../../Classes/Controllers/widget/BalanceStatsWidgetController.puml
+        !include ../../Classes/Controllers/widget/CategoriesChartWidgetController.puml
+        !include ../../Classes/Controllers/widget/CategoriesListWidgetController.puml
+        !include ../../Classes/Controllers/widget/RecentTransactionsWidgetController.puml
+        !include ../../Classes/Controllers/widget/TransactionsListWidgetController.puml
+        !include ../../Classes/Controllers/widget/WeeklySavingsOverviewWidgetController.puml
+        !include ../../Classes/Controllers/widget/WidgetController.puml
+    }
+}
+@enduml

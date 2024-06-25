@@ -1,0 +1,9 @@
+@startuml
+
+
+package "utils" #lightblue {
+    !include ../../Classes/DevModeUtil.puml
+}
+
+
+@enduml

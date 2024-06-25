@@ -1,0 +1,5 @@
+@startuml
+
+exception MainFX <<FXML Component>>
+
+@enduml

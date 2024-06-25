@@ -1,0 +1,9 @@
+@startuml
+
+class MainController {
+    +main_parent: BorderPane
+
+    +initialize(location: URL, resources: ResourceBundle): void
+}
+
+@enduml
