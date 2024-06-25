@@ -10,8 +10,8 @@
         Moneymate
     </a>
     ·
-    <a href="https://github.com/mvoemel/random/blob/main/python-scripts">
-        Python Scripts
+    <a href="https://github.com/mvoemel/random/blob/main/algorithms">
+        Algorithms
     </a>
     ·
     <a href="https://github.com/mvoemel/random/blob/main/theoretische-informatik">
@@ -23,6 +23,7 @@
 <!-- TABLE OF CONTENTS -->
 <ol>
   <li><a href="#moneymate">Moneymate</a></li>
+  <li><a href="#algorithms">Algorithms</a></li>
   <li><a href="#python-scripts">Python Scripts</a></li>
   <li>
     <a href="#theoretische-informatik">Theoretische Informatik</a>
@@ -53,6 +54,20 @@ Money Mate is a user-friendly personal finance manager designed for young indivi
 </details>
 
 To learn more about this project visit the [README](/moneymate/README.md) page.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Algorithms
+
+Up to this point in my career I have been exposed to several different problems in several different fields. For every set of problems there is a set of solutions. In the Algorithms folder I tried to save some of the algorithms I have been using. This spans from [Dynamic Programming](/algorithms/java/src/dynamicProgramming), over [Graph Theory](/algorithms/java/src/graphTheory) Algorithms to [Search and Sort](/algorithms/java/src/searchAndSort) Algorithms and [Parallel Computing](/algorithms/java/src/parallelProgramming) using several different Java Frameworks, ect.
+
+<br/>
+
+There is a [To-Be-Added](/algorithms/TBA.md) file with Algorithms and Concepts that might be added in the future.
+
+<br/>
+
+To learn more about this project visit the [Algorithms](/algorithms/) folder.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
