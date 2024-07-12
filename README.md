@@ -23,6 +23,7 @@
 <!-- TABLE OF CONTENTS -->
 <ol>
   <li><a href="#moneymate">Moneymate</a></li>
+  <li><a href="#chatroom">Chatroom</a></li>
   <li><a href="#algorithms">Algorithms</a></li>
   <li><a href="#python-scripts">Python Scripts</a></li>
   <li>
@@ -54,6 +55,14 @@ Money Mate is a user-friendly personal finance manager designed for young indivi
 </details>
 
 To learn more about this project visit the [README](/moneymate/README.md) page.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Chatroom
+
+This small NodeJS project allows users realtime communication over a websocket. It showcases my understanding of websockets using the socket.io package.
+
+To learn more about this project visit the [server.js](/chat-app/server.js) file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
