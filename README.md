@@ -24,6 +24,7 @@
 <ol>
   <li><a href="#moneymate">Moneymate</a></li>
   <li><a href="#chatroom">Chatroom</a></li>
+  <li><a href="#blockchain">Blockchain</a></li>
   <li><a href="#algorithms">Algorithms</a></li>
   <li><a href="#python-scripts">Python Scripts</a></li>
   <li>
@@ -63,6 +64,14 @@ To learn more about this project visit the [README](/moneymate/README.md) page.
 This small NodeJS project allows users realtime communication over a websocket. It showcases my understanding of websockets using the socket.io package.
 
 To learn more about this project visit the [server.js](/chat-app/server.js) file.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Blockchain
+
+In this small Python project a Mini-Blockchain has been built.
+
+To learn more about this project visit the [main.py](/blockchain/main.py) file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
