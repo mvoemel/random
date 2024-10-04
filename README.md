@@ -32,7 +32,7 @@
     <a href="#webdev">WebDev</a>
     <ul>
       <li><a href="#react">React</a></li>
-      <li><a href="#vdom">Virtual Dom</a></li>
+      <li><a href="#virtual-dom">Virtual Dom</a></li>
     </ul>
   </li>
   <li>
