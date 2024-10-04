@@ -32,6 +32,7 @@
     <a href="#webdev">WebDev</a>
     <ul>
       <li><a href="#react">React</a></li>
+      <li><a href="#vdom">Virtual Dom</a></li>
     </ul>
   </li>
   <li>
@@ -121,6 +122,10 @@ This folder holds different files related to web development.
 ### React
 
 This folder holds different react concepts, hooks, etc.
+
+### Virtual Dom
+
+This is a small project where a simple virtual dom was implemented from scratch using TypeScript. A small example on how you could use the virtual dom is attached.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
