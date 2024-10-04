@@ -127,6 +127,8 @@ This folder holds different react concepts, hooks, etc.
 
 This is a small project where a simple virtual dom was implemented from scratch using TypeScript. A small example on how you could use the virtual dom is attached.
 
+To learn more about this project visit the [vdom](/webdev/vdom/src/vdom/) folder inside the src directory.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Theoretische Informatik
