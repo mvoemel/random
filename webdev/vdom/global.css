@@ -1,0 +1,15 @@
+button {
+  border-radius: 100;
+  border-color: gray;
+}
+
+button:hover {
+  border-color: black;
+}
+
+.nice-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
