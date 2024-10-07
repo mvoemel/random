@@ -28,6 +28,7 @@
   <li><a href="#blockchain">Blockchain</a></li>
   <li><a href="#algorithms">Algorithms</a></li>
   <li><a href="#python-scripts">Python Scripts</a></li>
+  <li><a href="#java-erver">Java Server</a></li>
   <li>
     <a href="#webdev">WebDev</a>
     <ul>
@@ -112,6 +113,14 @@ Over the course of my programming journey I often had to use some python scripts
 <br/>
 
 To checkout some of my python scripts visit [Python Scripts](/python-scripts/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Java Server
+
+This project intended to create an http server where you can define routes and handle incoming requests, without using a framework like spring boot.
+
+To learn more about this project visit the [server](/java-server/app/src/main/java/server/Server.java) file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
