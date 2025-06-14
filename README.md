@@ -50,6 +50,7 @@
 
 ![Java][Java]
 ![Python][Python]
+![JupyterNotebook][JupyterNotebook]
 ![Javascript][Javascript]
 ![HTML][HTML]
 ![CSS][CSS]
@@ -144,6 +145,10 @@ To learn more about this project visit the [vdom](/webdev/vdom/src/vdom/) folder
 
 "Theoretische Informatik" was a module I had in my time at ZHAW. Once we had to design a Pushdown Automaton (Kellerautomat) with a UI and another time we had to programm a Turing Machine Emulator.
 
+## Numerical Methods
+
+This folder holds different files related to numerical methods (numerical integration, numerical differentiation, ordinary differential equations, ...).
+
 ### Keller Automat
 
 In this project I had to design a Pushdown Automaton with different functionalities, one of which is a "Step Mode" in which you can see (in a slow pace) how a Pushdown Automaton works.
@@ -211,6 +216,7 @@ To learn more about this project visit [Turing Machine](/theoretische-informatik
 
 [Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[JupyterNotebook]: https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white
 [Javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
 [HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
