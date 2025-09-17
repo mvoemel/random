@@ -89,9 +89,7 @@ There is a [To-Be-Added](/algorithms/TBA.md) file with algorithms and concepts t
 
 ## Blockchain
 
-In this small Python project a Mini-Blockchain has been built.
-
-To learn more about this project visit the [main.py](/blockchain/main.py) file.
+This folder holds different concepts of blockchain implementation. The [example-with-python](/blockchain/example-with-python/) is the easiest implementation. The [proof-of-stake-example](/blockchain/proof-of-stake-example.js) is a more complex implementation of the POS example using javascript. The [proof-of-work-example](/blockchain/proof-of-work-example.js) is a more complex implementation of the POW example using javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
