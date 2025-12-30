@@ -6,12 +6,12 @@
   <p align="center">
     This repositories holds random projects, scripts, concepts, ect.
     <br />
-    <a href="https://github.com/mvoemel/random/blob/main/moneymate">
-        Moneymate
-    </a>
-    ·
     <a href="https://github.com/mvoemel/random/blob/main/algorithms">
         Algorithms
+    </a>
+    ·
+    <a href="https://github.com/mvoemel/random/blob/main/blockchain">
+        Blockchain
     </a>
     ·
     <a href="https://github.com/mvoemel/random/blob/main/microservices-example">
@@ -28,7 +28,6 @@
   <li><a href="#java-server">Java Server</a></li>
   <li><a href="#machine-learning-data-mining">Machine Learning Data Mining</a></li>
   <li><a href="#microservices-example">Microservices Example</a></li>
-  <li><a href="#moneymate">Moneymate</a></li>
   <li><a href="#numerical-methods">Numerical Methods</a></li>
    <li>
     <a href="#physics-engine">Physics Engine</a>
@@ -37,7 +36,6 @@
       <li><a href="#rollbahn-mit-druckfedern">Rollbahn mit Druckfedern</a></li>
     </ul>
   </li>
-  <li><a href="#python-scripts">Python Scripts</a></li>
   <li>
     <a href="#theoretische-informatik">Theoretische Informatik</a>
     <ul>
@@ -47,13 +45,7 @@
       <li><a href="#turing-maschine">Turing Maschine</a></li>
     </ul>
   </li>
-  <li>
-    <a href="#webdev">WebDev</a>
-    <ul>
-      <li><a href="#javascript">Javascript</a></li>
-      <li><a href="#virtual-dom">Virtual Dom</a></li>
-    </ul>
-  </li>
+  <li><a href="#virtual-dom">Virtual Dom</a></li>
   <li><a href="#license">License</a></li>
 </ol>
 
@@ -183,18 +175,6 @@ To learn more visit [Rollbahn mit Druckfedern](/physics-engine/rollbahn-mit-druc
 
 ---
 
-## Python Scripts
-
-Over the course of my programming journey I often had to use some python scripts to speed up some basic actions. This folder holds some of these scripts.
-
-<br/>
-
-To checkout some of my python scripts visit [Python Scripts](/python-scripts/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
 ## Theoretische Informatik
 
 "Theoretische Informatik" was a module I had in my time at ZHAW. Once we had to design a Pushdown Automaton (Kellerautomat) with a UI and another time we had to programm a Turing Machine Emulator.
@@ -260,21 +240,11 @@ To learn more about this project visit [Turing Machine](/theoretische-informatik
 
 ---
 
-## WebDev
-
-This folder holds different files related to web development.
-
-### Javascript
-
-This folder holds different javascript concepts, hooks, etc.
-
-To learn more visit [Javascript](/webdev/javascript/).
-
-### Virtual Dom
+## Virtual Dom
 
 This is a small project where a simple virtual dom was implemented from scratch using TypeScript. A small example on how you could use the virtual dom is attached.
 
-To learn more about this project visit the [vdom](/webdev/vdom/src/vdom/) folder inside the src directory.
+To learn more about this project visit the [vdom](/vdom/src/vdom/) folder inside the src directory.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

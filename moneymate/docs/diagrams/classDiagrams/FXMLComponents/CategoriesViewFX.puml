@@ -1,3 +1,0 @@
-@startuml
-exception CategoriesViewFX <<FXML Component>>
-@enduml

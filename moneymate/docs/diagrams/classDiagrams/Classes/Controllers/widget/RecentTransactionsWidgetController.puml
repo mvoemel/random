@@ -1,9 +1,0 @@
-@startuml
-class RecentTransactionsWidgetController {
-  - widgetGroup: Group
-  - recentTransactionListContainer: VBox
-  + RecentTransactionsWidgetController(Model):
-  + initialize(URL, ResourceBundle): void
-  - updateRecentTransactions(): void
-}
-@enduml

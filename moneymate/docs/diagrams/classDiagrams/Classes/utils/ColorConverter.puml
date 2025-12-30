@@ -1,7 +1,0 @@
-@startuml
-class ColorConverter {
-  + ColorConverter():
-  + toRGBComponents(Color): int[]
-  + toHex(Color): String
-}
-@enduml

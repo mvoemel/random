@@ -1,8 +1,0 @@
-@startuml
-abstract class WidgetController {
-  + WidgetController(Model):
-  # model: Model
-  # scalableNode: Node
-  # applyScaleEffect(): void
-}
-@enduml

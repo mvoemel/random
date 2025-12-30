@@ -1,3 +1,0 @@
-@startuml
-exception AddNewCategoryWidgetFX <<FXML Component>>
-@enduml

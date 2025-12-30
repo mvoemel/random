@@ -1,8 +1,0 @@
-@startuml
-
-package views #orchid {
-    !include ../../Classes/SidebarOption.puml
-    !include ../../Classes/ViewFactory.puml
-}
-
-@enduml

@@ -1,3 +1,0 @@
-@startuml
-exception RecentTransactionsWidgetFX <<FXML Component>>
-@enduml

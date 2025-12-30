@@ -1,5 +1,0 @@
-@startuml
-
-exception TransactionCellFX <<FXML Component>>
-
-@enduml

@@ -1,3 +1,0 @@
-@startuml
-exception TransactionWideFX <<FXML Component>>
-@enduml

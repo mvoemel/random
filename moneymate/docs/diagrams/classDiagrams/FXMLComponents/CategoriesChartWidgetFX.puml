@@ -1,3 +1,0 @@
-@startuml
-exception CategoriesChartWidgetFX <<FXML Component>>
-@enduml

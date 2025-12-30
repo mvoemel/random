@@ -1,9 +1,0 @@
-@startuml
-package "utils" #lightblue {
-    !include ../../Classes/utils/DevModeUtil.puml
-    !include ../../Classes/utils/ColorConverter.puml
-    !include ../../Classes/utils/DateFormatter.puml
-    !include ../../Classes/utils/Modal.puml
-    !include ../../Classes/utils/TextFormatter.puml
-}
-@enduml

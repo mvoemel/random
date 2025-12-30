@@ -1,6 +1,0 @@
-@startuml
-class DateFormatter {
-  + DateFormatter():
-  + DATE_FORMATTER: DateTimeFormatter
-}
-@enduml
