@@ -1,8 +1,9 @@
 Algorithms that might be added:
+
 - Euler Tour
 - Hamilton Path
 - Greedy Matching
-- Greedy Färbung
+- Greedy Faerbung
 - Local Repair
 - Ford Fulkerson
 - Target shooting
@@ -15,6 +16,7 @@ Algorithms that might be added:
 - TAS
 
 Descriptions that might be added:
+
 - Amdahl's law and Gustafson's law
 - Semaphores
 - Thread states in java

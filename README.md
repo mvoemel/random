@@ -28,23 +28,6 @@
   <li><a href="#java-server">Java Server</a></li>
   <li><a href="#machine-learning-data-mining">Machine Learning Data Mining</a></li>
   <li><a href="#microservices-example">Microservices Example</a></li>
-  <li><a href="#numerical-methods">Numerical Methods</a></li>
-   <li>
-    <a href="#physics-engine">Physics Engine</a>
-    <ul>
-      <li><a href="#dart">Dart</a></li>
-      <li><a href="#rollbahn-mit-druckfedern">Rollbahn mit Druckfedern</a></li>
-    </ul>
-  </li>
-  <li>
-    <a href="#theoretische-informatik">Theoretische Informatik</a>
-    <ul>
-      <li><a href="#keller-automat">Keller Automat</a></li>
-    </ul>
-    <ul>
-      <li><a href="#turing-maschine">Turing Maschine</a></li>
-    </ul>
-  </li>
   <li><a href="#virtual-dom">Virtual Dom</a></li>
   <li><a href="#license">License</a></li>
 </ol>
@@ -107,11 +90,11 @@ To learn more about this project visit the [server](/java-server/app/src/main/ja
 
 ---
 
-## Machine Learning Data Mining
+## Machine Learning
 
-"Machine Learning and Data Mining" was a module at my time at ZHAW. It gives a good introduction to different machine learning and data mining techniques. It covers topics like "Linear Regression", "Polynomial Regression", "Classification", "Clustering", "Decision Trees", etc.
+This folder holds different example models like a card classifier, shakespear transformer, etc.
 
-It also gives you a brief introduction to several python packages. Visit [Pandas](/machine-learning-data-mining/pandas-guide.py) to learn more about the pandas package in python.
+To learn more about this project visit [Machine Learning](/machine-learning/) page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,119 +105,6 @@ It also gives you a brief introduction to several python packages. Visit [Pandas
 This project implements a posting application with the ability to write comments under each post. This simple project was implemented using the microservices architecture.
 
 To learn more about this project visit the [README](/microservices-example/README.md) page.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Moneymate
-
-Money Mate is a user-friendly personal finance manager designed for young individuals, featuring an intuitive interface and a charming canine mascot to help users track income, expenses, and savings weekly. Developed by a team of four students as a school project, it involved meticulous planning, market research, and rigorous development, culminating in a successful presentation and valuable industry feedback.
-
-<details>
-  <summary>Detailed Description</summary>
-  <p>Money Mate is a user-friendly personal finance manager for young individuals starting their independent lives. Featuring an intuitive interface and a charming canine mascot, it helps users track income, expenses, and savings weekly. Insightful charts visualize spending patterns, promoting better financial habits and informed decisions. Money Mate is a loyal companion in achieving financial wellness and independence.</p>
-  <p>Money Mate began as a school project developed by our team of four students. We pitched the idea to investors, planned meticulously, and executed the development process. We conducted market research to understand the financial challenges faced by young individuals, designed a user-friendly interface, and incorporated a charming canine mascot. Through rigorous coding sessions and frequent meetings, we ensured each feature was functional and engaging. The project concluded with our presentation showcasing Money Mate's capabilities, receiving valuable feedback from industry experts, and marking a significant milestone in our educational journey.</p>
-</details>
-
-<br />
-
-To learn more about this project visit the [README](/moneymate/README.md) page.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Numerical Methods
-
-This folder holds different files related to numerical methods (numerical integration, numerical differentiation, ordinary differential equations, etc.).
-
-To learn more visit [Numerical Methods](/numerical-methods/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Physics Engine
-
-"Physics Engine" was a module that I visited at my time at ZHAW. We had two different projects that allowed us to get a further understanding on how to simulate physics in **Unity**.
-
-### Dart
-
-The dart project simulates a dart being thrown at a board while falling.
-
-To learn more visit [Dart](/physics-engine/dart-609/).
-
-### Rollbahn mit Druckfedern
-
-The "Rollbahn mit Druckfedern" project simulates a car between two blocks oscillating in different scenarios (e.g. ellastic vs inellastic collision).
-
-To learn more visit [Rollbahn mit Druckfedern](/physics-engine/rollbahn-mit-druckfedern/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-## Theoretische Informatik
-
-"Theoretische Informatik" was a module I had in my time at ZHAW. Once we had to design a Pushdown Automaton (Kellerautomat) with a UI and another time we had to programm a Turing Machine Emulator.
-
-### Keller Automat
-
-In this project I had to design a Pushdown Automaton with different functionalities, one of which is a "Step Mode" in which you can see (in a slow pace) how a Pushdown Automaton works.
-
-I programmed it using **JavaScript** with **React** and **HTML** and **CSS**.
-
-To learn more about this project visit [Keller Automat](/theoretische-informatik/keller-automat/).
-
-### Turing Maschine
-
-In this project I had to design a Turing Machine Emulator with different functionalities, one of which is the reading in of several different encodings for a "Universal Turing Maschine" (in form of binary, a long number, from a file, ect.). Another feature is the "Step Mode".
-
-<details>
-  <summary>Encoding</summary>
-
-1. Schritt: Die Zustände Q einer TM werden codiert als:
-   <br/>
-   q1: für den Startzustand,
-   <br/>
-   q2: für den akzeptierenden Zustand (Jede TM mit mehreren akzeptierenden Zuständen kann in eine äquivalente TM mit
-   nur einem akzeptierenden Zustand überführt werden.) und
-   <br/>
-   q3, . . . , qi : für alle weiteren Zustände.
-
-2. Schritt: Die Bandsymbole Γ einer TM werden codiert als:
-   <br/>
-   X1: für das Symbol 0,
-   <br/>
-   X2: für das Symbol 1,
-   <br/>
-   X3: für das Symbol ␣ (Blank) und
-   <br/>
-   X4, . . . , Xj : für alle weiteren Symbole.
-
-3. Schritt: Codierung der Richtung des Lese-Schreibkopfes D einer TM:
-   <br/>
-   D1: für die Richtung L und
-   <br/>
-   D2: für die Richtung R.
-
-4. Schritt: Repräsentation einer Übergangsfunktion δ einer TM:
-   <br/>
-   Ein Übergang δ(qi, Xj) = (qk, Xl, Dm) einer TM wird codiert überdie Zeichenreihe:
-   <br/>
-   0^i10^j10^k10^l10^m mit (i, j, k, l, m ∈ N)
-
-5. Schritt: Zusammenfassung der Übergangsfunktion δ einer TM:
-<br/>
-Die einzelnen Transitionen werden durch „11“ voneinander getrennt (jedes Ci steht für eine Transition):
-<br/>
-C111C211C311 . . .
-</details>
-
-I programmed it using the "Object oriented Pattern" with **Python**.
-
-To learn more about this project visit [Turing Machine](/theoretische-informatik/turing-maschine/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
